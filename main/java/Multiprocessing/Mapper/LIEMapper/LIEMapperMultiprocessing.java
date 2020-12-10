@@ -9,7 +9,7 @@ import org.apache.spark.api.java.function.VoidFunction;
 
 import java.util.ArrayList;
 
-public class LIEMapperMultiprocessing implements MapperMultiprocesing {
+public class LIEMapperMultiprocessing {
 
     /**
      * Method to parallelized a mapping of an array
@@ -22,8 +22,7 @@ public class LIEMapperMultiprocessing implements MapperMultiprocesing {
      * @param pSourceCodes an Array that holds the source
      *                     code from the LIE++ language.
      */
-    @Override
-    public void start(ArrayList<String> pSourceCodes){
+    public static void start(ArrayList<String> pSourceCodes){
         //cleaning the array list that is going to hold the
         // compilation units mapped.
         Globals.reset();
