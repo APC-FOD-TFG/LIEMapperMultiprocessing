@@ -1,0 +1,49 @@
+/*Testing Function declarations*/
+
+vTexto_1 := "hola soy string"
+vEntero_1:=51
+vDecimal_1:=0123.45
+vArreglo_1:=[5]
+vArreglo_1[2]:=20
+vBooleano := verdadero
+
+para pruebaLlamadaFuncionSinP()
+    imprimir("estoy en funcion sin parametros " + vBooleano)
+	si (vEntero_2>vEntero_1 & 7>((5+(2*2)))) entonces
+		//nada
+	sino si (vEntero_2<vEntero_1) entonces
+		//nada
+		si (vEntero_2>vEntero_1) entonces
+			//nada
+		sino
+			repetir (vEntero_2) veces
+				//nada
+			fin
+		fin
+	sino
+		//nada
+		si (vEntero_2>vEntero_1) entonces
+			//nada
+		fin
+	fin
+fin
+
+para pruebaLlamadaFuncionConP(string, arreglo)
+    imprimir(string + arreglo[0]+ " arreglos")
+fin
+
+para pruebaRetornoValor()
+	mientras (verdadero) haga
+        funcBotonPrueba()
+        funcLuz()
+        funcLuzR()
+        funcServoPrueba()
+        funcServoAngular()
+    fin
+    devolver 5
+fin
+
+
+para principal()
+
+fin

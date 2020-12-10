@@ -1,0 +1,22 @@
+/*Testing main function declaration*/
+
+para principal()
+    repetir (4) veces
+        otro()
+    fin
+    
+    c2 := 4+7*2/2 mod 7
+    
+    repetir (4+7*2/2 mod 7) veces
+        otro()
+    fin
+
+    repetir (c2) veces
+    fin
+
+    imprimir("\n")
+    imprimir(c2)
+    imprimir("\n")
+    s7 := 2+5*3 mod 7
+    imprimir(s7)
+fin

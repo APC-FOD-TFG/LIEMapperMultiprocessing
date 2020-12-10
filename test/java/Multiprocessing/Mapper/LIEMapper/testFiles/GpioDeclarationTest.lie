@@ -1,0 +1,11 @@
+/*Testing Gpio Declarations*/
+
+GpioVarTest1 := boton(1)
+GpioVarTest2 := led(0)
+GpioVarTest3 := led.regulable(4)
+GpioVarTest4 := servo(2)
+GpioVarTest5 := servo(5,-90,90)
+
+para principal()
+
+fin

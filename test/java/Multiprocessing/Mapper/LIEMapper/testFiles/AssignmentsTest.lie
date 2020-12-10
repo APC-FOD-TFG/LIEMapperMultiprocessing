@@ -1,0 +1,37 @@
+/*Unit tests for the Assignments*/
+
+/*Testing expressions when used in an assignment*/
+VarTest1 := "Hello World"
+VarTest2 := VarTest1
+VarTest3 := pi
+VarTest4 := euler
+VarTest5 := 5
+VarTest6 := 5.1
+VarTest7 := -pi
+VarTest8 := (-5)
+VarTest9 := 5*VarTest3
+
+/*Testing array calls when used in an assignment*/
+VarTest10 := ArrayTest1[1]
+VarTest11 := ArrayTest1[ArrayTest2[9]]
+
+/*Testing function calls when used in an assignment*/
+VarTest12 := FunctionTest1()
+VarTest13 := FunctionTest1(FunctionTest2(3,VarTest2))
+
+/*Testing logical expressions when used in an assignment*/
+VarTest14 := no VarTest4
+VarTest15 := ! ArrayTest[0]
+VarTest16 := ! verdadero
+VarTest17 := falso
+
+/*Testing relational expressions when used in an assignment*/
+VarTest17 := ArrayTest[3] >= VarTest17
+VarTest18 := ((ArrayTest[3] < VarTest17) != (0.56 igual VarTest17))
+
+/*Testing an assignment to an array*/
+ArrayTest1[0] := "Hello World"
+
+para principal()
+
+fin

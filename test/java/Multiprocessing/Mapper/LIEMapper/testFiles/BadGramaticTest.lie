@@ -1,0 +1,16 @@
+/*Unit tests to check if grammatic errors are detected*/
+
+/*Testing wrong use of assignment operator*/
+VarTest1 = "Hello World"
+VarTest5 := 5
+
+/*Testing a assignment inside another assignment*/
+VarTest12 := FunctionTest1( VarTest13 := FunctionTest1(FunctionTest2(3,VarTest2)))
+
+/*Testing forgoten parentesis*/
+VarTest18 := ((ArrayTest[3] < VarTest17 != (FunctionTest1() igual VarTest17)
+
+/*Testing string closed forgoten*/
+ArrayTest1[0] := "Hello World
+
+/*Testing forgoten main function declaration*/
