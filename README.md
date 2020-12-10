@@ -19,6 +19,7 @@ Maven>Verify in this  project).
 ## Recommendations
 Maven is quite simple, some IDLE's like [IntelliJ IDEA](https://www.jetbrains.com/idea/), implement a graphic way to
 use Maven, this a fast way to use the Project if you aren't familiarized with Maven.
+For a basic example and dependencies for using apache spark with JavaRDD 00you can see this [tutorial](https://dzone.com/articles/your-first-java-rdd-with-apache-spark).
 
 ## Use the Mapper Project in another project.
 To use the functionalities provided by this project in another one, you must include the Maven dependency of this
